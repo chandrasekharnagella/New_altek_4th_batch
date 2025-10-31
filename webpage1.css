@@ -1,0 +1,108 @@
+/* body{
+    background-color: gray;
+} */
+
+.main_div{
+    width:1200px;
+    height: 650px;
+    background-color: gray;
+    margin:auto;  
+}
+#main_header{
+     width:1200px;
+     height:80 px;
+     /* background-color: green; */
+     background-image: url("../Images/flower.png");
+     text-align: center;
+     line-height: 100px;
+     color: white;
+     letter-spacing: 2px;  
+}
+#main_nav{
+     width:1200px;
+     height:50px;
+     background-color: rgb(54, 54, 54);
+      margin-top: -15px;
+}
+#main_nav ul li{
+           color:white;
+           float:left;
+           line-height:50px ;
+           margin-left: 20px;
+           cursor: pointer;
+}
+#main_nav ul li:hover{color:red}
+
+ul{list-style-type: none;}
+#main_section{
+     width:800px;
+     height:430px;
+     background-color: rgb(15, 121, 198);
+     /* text-align: center;
+     line-height: 450px; */
+     color: white;
+     letter-spacing: 2px;
+     float:left;    
+}
+
+#main_section h1{margin-left: 70px;color:orange}
+
+#main_section p{
+     margin-left: 20px;
+     text-align: justify;
+     width:680px;
+}
+
+#main_aside1{
+     width:400px;
+     height:210px;
+    background-color: red;
+     text-align: center;
+     line-height: 255px;
+     color: white;
+     letter-spacing: 2px;
+     float:right;
+     margin-bottom: 10px;
+}
+
+#main_aside2{
+     width:400px;
+     height:210px;
+    background-color: blue;
+     text-align: center;
+     line-height: 255px;
+     color: white;
+     letter-spacing: 2px;
+     float:right;
+}
+
+
+ #main_footer{
+     width:1200px;
+     height:100px;
+     background-color: green;
+     text-align: center;
+     line-height: 100px;
+     color: white;
+     letter-spacing: 2px;
+     clear:both;
+
+
+
+
+     text-align: justify;
+
+
+     
+} 
+
+
+a{
+    text-decoration:none ;
+}
+
+a:active{color:black}
+
+a:visited{color:red}
+
+

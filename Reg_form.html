@@ -1,0 +1,102 @@
+<html>
+            <head>
+
+                    <h1 align="center"> Registration Form </h1>
+
+
+                    <script type="text/javascript">
+
+                      function submit_form(){
+
+                                // var user_name=document.getElementById('user_N').value;
+
+                                //  var pass_ward=document.getElementById('pass_w').value;
+
+
+                                //  if(user_name === "" || pass_ward === "")
+
+                                //  {
+
+                                //         alert('please enter username and password');
+                                //          return false;
+                                //  }
+
+                                //  else
+                                //  {
+                                //          alert('Submitted username and password succssfully');
+                                //          return ture;
+                                //  }
+
+
+
+                                 var check1 = document.getElementById('check1').checked
+                             var check2 = document.getElementById('check2').checked
+
+                                 if(check1)
+
+                                                {
+                                                        alert("Thanks you for selecting 10th checkbox");
+                                                        return true;
+                                                }
+                                                else if(check2)
+
+                                                {
+                                                          alert("Thanks you for selecting 12th checkbox");
+                                                        return true;
+                                                }
+
+                                                else{
+                                                       alert("Thanks you ");
+                                                        return flase;
+                                                }         
+
+                      }
+
+                    </script>
+
+
+            </head>
+
+
+    <body >
+
+        <form action="" method="post" onsubmit="submit_form();">
+
+
+                Name:
+                <input type="text" placeholder="First Name" id="user_N" /> <br>
+                Password:
+                <input type="password" placeholder="password" id="pass_w"><br>
+
+
+
+                gender:
+                <input type="radio">male
+                <input type="radio">Female<br>
+
+                Mobile Number:
+
+                <input type="number"><br>
+  
+                Education:
+
+                <input type="checkbox" id="check1"> 10th
+                <input type="checkbox" id="check2"> 12th
+                <input type="checkbox" id="check3"> Degree/B-Tech<br>
+
+                Select State
+                <select>
+
+                        <option>Select State</option>
+
+                </select><br>
+                Description
+                <textarea cols="4" rows="5"></textarea><br>
+                <input type="submit" value="Register"><br>
+
+                <input type="reset" value="Clear">
+        </form>
+
+    </body>
+
+</html>

@@ -1,0 +1,246 @@
+<html>
+            <head>
+
+                         
+                   
+            </head>
+
+
+    <body>
+
+
+         <script type="text/javascript">
+
+//                 document.write(" I am from <h3> \'Js\' </h3> ");
+
+
+//                 document.write(" I am from <h1>  Js </h1> ");
+
+
+//                 a= 10;
+
+//                 aa= " Ram ";
+
+//                 var name="sita";
+
+//                         document.write( a + aa + name + "<br> " );
+
+//                         document.write("Name = " + aa + "Sum = " + a +" "+ name + aa + "<br> " );
+
+//      b=10;
+//      c=40;
+
+//      pie=3.14;
+//                 document.write( "sum = " + (b+c+pie) + "<br> " ); 
+
+
+
+
+
+
+                                        // Alert(message Box)
+
+                                // alert("hai...Hello......")
+
+
+                                // // Number or parseInt
+
+
+                                // var a= Number(prompt("enter a Val"));
+
+                                //  var b= Number(prompt("enter b Val"));
+
+                                //  var c=a+b;
+
+
+                                //  alert("sum =" + c);
+
+                                //                 // OR
+
+                                //  var a= parseInt(prompt("enter a Val"));
+
+                                //  var b= parseInt(prompt("enter b Val"));
+
+                                //  var c=a+b;
+
+
+                                //  alert("sum =" + c);
+
+
+                        //       Functions  
+
+                        
+                                /*
+
+                        function add(x,y)
+                                        {
+                                                document.write("addition of two values =" + (x+y) + "<br>");
+                                        }
+
+                         function mul(x,y)
+                                        {
+                                                document.write("Multi of two values =" + (x*y) + "<br>");
+                                        }
+
+                                        
+                         function altek()
+                                        {
+                                                document.write("I am from altek");
+                                        }
+
+                        add(3, 4);
+
+
+                        add(10, 4);
+
+                        mul(5,5);
+
+                        altek();
+
+                          document.write("I got the job in TCS"+ "<br>");
+
+                          s=mul(5,6);
+
+                           document.write("s=" + s);
+
+                        */
+
+
+                                // onclick calling function
+
+
+
+                                // function altek(){
+
+                                //         alert('Hello altek');   
+                                // }
+
+
+                        // document.getElementById
+
+
+                                // function am_altek(){
+
+                                //         var s=document.getElementById('spann');
+
+                                //         s.innerHTML="Altek";
+
+                                //                                 // or
+
+                                //         var a=document.getElementById('spann').innerHTML="I am Altek"
+                                // }
+
+        </script>
+
+<!-- 
+                 <button onclick='alert("i am from altek");'> Button1 </button>
+
+
+                  <button onclick="altek()"> Button2 </button> --> 
+
+
+                  <!-- <label> First name: </label> 
+
+
+                  <span id="spann"> 0 </span><br>
+
+
+                  <button onclick="am_altek()"> click to display name1 </button> 
+
+
+                  <span >1</span>
+
+                   <button onclick="am_altek1()"> click to display name2 </button> 
+
+                   <span>2</span>
+
+                    <button onclick="am_altek2()"> click to display name3 </button>  -->
+
+
+                    <!-- <></> Fragements -->
+
+        <!--       
+
+                    <script type="text/javascript">
+
+                                function cal_sum(){
+
+                                        var f_v = parseInt(document.getElementById('first_value').value);
+
+                                        var s_v = parseInt(document.getElementById('second_value').value);
+
+                                        var oper = document.getElementById('ope').value;
+
+                                        if (oper === '+')
+
+                                        {
+                                                document.getElementById('resultt').value=f_v+s_v;
+                                        }
+                                        else if (oper === '-')
+
+                                                {
+                                                        document.getElementById('resultt').value=f_v-s_v;
+                                                }
+                                                else
+                                                        {
+                                                                document.write('Please enter correct oper')
+                                                        }
+
+                                }
+
+                    </script>
+
+                   
+                
+                    <div>
+
+                                First Value
+                                <input type="text" id="first_value"/><br>
+
+                                Second Value
+                                 <input type="text" id="second_value"/><br>
+
+                                 <select id="ope">
+
+                                         <option > Select </option>
+                                        <option value="+"> ++ </option>
+
+                                        <option value="-"> -- </option>
+
+                                 </select><br>
+
+                                  Output
+                                 <input type="text" id="resultt"/><br>
+
+                                 <button onclick="cal_sum()"> == </button>
+
+                                  <button onclick="cal_sum()"> 1 </button>
+
+                                    <button onclick="cal_sum()"> 2 </button> 
+
+                    </div>
+
+
+
+
+-->
+
+
+
+<script>
+
+                function Ch_img(){
+
+                        var imgg=document.getElementById('change_pic');
+
+                        imgg.src="../Images/flower.png"
+                }
+
+
+</script>
+
+                        <img src="../Images/download (1).jpg" onclick="Ch_img();" id="change_pic" >              
+
+        </body>
+
+        </html>
